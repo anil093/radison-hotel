@@ -102,9 +102,10 @@
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background-color: red;
+	background-color: darkred;
 	color: white;
 	text-align: center;
+	opacity: 0.8;
 }
 /* body {
 	background-image: url("https://images.pexels.com/photos/1092364/pexels-photo-1092364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
@@ -179,4 +180,22 @@ div.gallery img {
 div.desc {
 	padding: 15px;
 	text-align: center;
+}
+.button1 {
+	background-color: #f4511e;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	font-size: 16px;
+	margin: 4px 2px;
+	opacity: 0.6;
+	transition: 0.3s;
+	display: inline-block;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.button1:hover {
+	opacity: 1;
 }
