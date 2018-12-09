@@ -96,8 +96,87 @@
 #cssmenu > ul > li > a:hover:after {
 	background: red;
 }
-img {
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: red;
+	color: white;
+	text-align: center;
+}
+/* body {
+	background-image: url("https://images.pexels.com/photos/1092364/pexels-photo-1092364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	background-attachment: fixed;
+	background-position: right top;
+} */
+.button {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #f4511e;
+	border: none;
+	color: #ffffff;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	width: 200px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	margin-top: 190px;
+}
+.btn {
+	padding-left: 550px;
+}
+span {
+	color: white;
+}
+div.desc {
+	padding: 15px;
+	text-align: center;
+}
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.button:hover span {
+	padding-right: 25px;
+}
+
+.button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+div.gallery {
+	margin: 5px;
+	border: 1px solid #ccc;
 	float: left;
-	margin-top: 20px;
-	margin-left: 21px;
+	width: 350px;
+}
+
+div.gallery:hover {
+	border: 1px solid #777;
+}
+
+div.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
 }
